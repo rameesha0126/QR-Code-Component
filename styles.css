@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
+html {
+    font-family: 'Outfit', serif;
+    background-color: var(--Slate-300);
+    height: 100vh;
+}
+
+.background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-width;
+    height: auto;
+}
+
+.card-component {
+    background-color: var(--White);
+    border-radius: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 10px 10px 100px var(--Slate-500);
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: var(--Slate-900);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.description {
+    color: var(--Slate-500);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
