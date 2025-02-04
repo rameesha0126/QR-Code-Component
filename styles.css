@@ -15,15 +15,18 @@
 
 html {
     font-family: 'Outfit', serif;
-    background-color: var(--Slate-300);
-    height: 100vh;
 }
 
-.background {
+body {
+    height: 100vh;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--Slate-300);
+}
+
+.background {
     width: max-width;
     height: auto;
 }
